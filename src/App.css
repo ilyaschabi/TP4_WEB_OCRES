@@ -1,47 +1,136 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.nav_container
+{
+  padding-top:20px;
+  margin-left: 685px;
+  width: 55%;
+  height: 70px;
   display: flex;
-  flex-direction: column;
-
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-.Bouton
+.name 
 {
-    width: 200px;
-    height: 100px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
-    border-radius: 50px;
+  border: 1px solid black;
+  width:200px;
+  text-align: center;
+  margin-top: 10px;
+  height:35px;
+  padding:10px;
+}
+.profil
+{
+  width: 800px;
+  height: 800px;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.infos_profil
+{
+  width: 100%;
+  height: 350px;
+  border: 1px solid black;
+}
+.infos_profil_dark
+{
+  width: 100%;
+  height: 350px;
+  border: 1px solid white;
+}
+.infos_profil_red
+{
+  width: 100%;
+  height: 350px;
+  border: 1px solid black;
+  background-color:red;
+}
+.photo_profil
+{
+  display: flex;
+  justify-content: center;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+.photo_profil img
+{
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+}
+.infos_container
+{
+  display: flex;
+  justify-content: space-around;
+}
+.infos_container_dark
+{
+  display: flex;
+  justify-content: space-around;
+  color:white;
+}
+.newtheme_button_container
+{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+}
+.description_profil
+{
+  margin-top: 50px;
+  width: 100%;
+  border: 1px solid black;
+  text-align: justify;
+}
+.description_profil_dark
+{
+  margin-top: 50px;
+  width: 100%;
+  border: 1px solid white;
+  text-align: justify;
+  color:white;
+}
+.description_profil p
+{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 5%;
+  width: 90%;
+}
+.newtheme{
+  background-color: #1c1e24;
 }
 
-.Rectangle
+.c_super
 {
-    width: 200px;
-    height: 100px;
-    border-style: solid;
-    border-width: 1px;
-    border-color: black;
+  border:1px solid black;
+  display: flex;
+  width: 35%;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.c_super_dark
+{
+  border:1px solid white;
+  display: flex;
+  width: 35%;
+  margin-left: 40px;
+  margin-bottom: 20px;
+}
+
+.c_super button
+{
+  margin-left: 20px;
+  width: 40px;
+  height: 40px;
+  margin-top: 10px;
+  border: none;
+  background-color: white;
+}
+
+.c_super img
+{
+
+  width: 30px;
+  height: 30px;
+
 }
